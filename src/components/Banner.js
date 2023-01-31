@@ -70,10 +70,7 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    I am a frontend developer with a good understanding of JavaScript and the
-                    ecosystem of React.js. I have created more than 10 projects, and I continue to
-                    practice actively. I would like to be a part of the team and to make a
-                    contribution to your company.
+                    I am a Frontend Developer with 1.9 years experience and good understanding of the React.js ecosystem.My responsibilities include creating React components, getting data from the server, creating global application logic using Redux and much more. IT is my passion and I am happy to do this even in my free time☺
                   </p>
                   <h5 onClick={() => console.log('connect')}>Let’s Connect</h5>
                 </div>
