@@ -70,15 +70,11 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-<<<<<<< HEAD
                     Hello friends! Let me introduce myself 😊 <br />
                     As a frontend developer with 1.9 years of experience, I am passionate about
                     creating beautiful and functional web applications. I have a deep understanding
                     of the React.js ecosystem and am dedicated to staying up-to-date on the latest
                     advancements in the field.
-=======
-                    I am a Frontend Developer with 1.9 years experience and good understanding of the React.js ecosystem.My responsibilities include creating React components, getting data from the server, creating global application logic using Redux and much more. IT is my passion and I am happy to do this even in my free time☺
->>>>>>> 64f774c46592e2a76c6b8d4f90aba4d4305d487c
                   </p>
                   <h5 onClick={() => console.log('connect')}>Let’s Connect</h5>
                 </div>
