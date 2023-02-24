@@ -6,6 +6,7 @@ import projImg3 from '../assets/img/proj3.png';
 import projImg4 from '../assets/img/proj4.png';
 import projImg5 from '../assets/img/proj5.png';
 import projImg6 from '../assets/img/proj6.png';
+import projImg7 from '../assets/img/proj7.png';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -50,6 +51,12 @@ export const Projects = () => {
       description: 'Website for uber candidates',
       imgUrl: projImg6,
       href: 'https://papaya-pudding-a12db3.netlify.app/',
+    },
+    {
+      title: 'Irvas',
+      description: 'Project for my clients from the glazing industry',
+      imgUrl: projImg7,
+      href: 'https://loquacious-meerkat-d3cef7.netlify.app/',
     },
   ];
 
