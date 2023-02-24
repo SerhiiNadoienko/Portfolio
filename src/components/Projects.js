@@ -104,7 +104,7 @@ export const Projects = () => {
                       </Tab.Pane>
 
                       <Tab.Pane eventKey="third">
-                        <p>Simple landing pages for the Russian-speaking audience</p>
+                        <p>Classic projects using JavaScript</p>
                         <Row>
                           {projects2.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
