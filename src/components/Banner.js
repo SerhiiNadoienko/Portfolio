@@ -70,7 +70,7 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    For almost 2 years, I have been passionately dedicated to creating beautiful and
+                    For almost 2 years I have been passionately dedicated to creating beautiful and
                     functional web applications using cutting-edge technologies such as React,
                     Redux, SCSS, TypeScript, and much more.
                     {/* As a frontend developer with 1.9 years of experience, I am passionate about
