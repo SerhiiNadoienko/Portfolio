@@ -7,12 +7,19 @@ import projImg4 from '../assets/img/proj4.png';
 import projImg5 from '../assets/img/proj5.png';
 import projImg6 from '../assets/img/proj6.png';
 import projImg7 from '../assets/img/proj7.png';
+import projImg8 from '../assets/img/proj8.png';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
   const projects = [
+    {
+      title: 'STUFF store',
+      description: 'Stylish clothing store',
+      imgUrl: projImg8,
+      href: 'https://react-store-srhndk.vercel.app/',
+    },
     {
       title: 'IBoard',
       description: 'Acounting of employees and customers',
@@ -70,6 +77,7 @@ export const Projects = () => {
                 <div className={isVisible ? 'animate__animated animate__fadeIn' : ''}>
                   <h2>Projects</h2>
                   <p>Welcome to my projects, enjoy😊</p>
+
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
@@ -119,6 +127,25 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
+      <TrackVisibility>
+        {({ isVisible }) => (
+          <div className={isVisible ? 'animate__animated animate__fadeIn' : ''}>
+            <p style={{ margin: '60px auto 60px auto', textAlign: 'center' }}>
+              My passion for development goes beyond just the technical aspects of the job. I am
+              focused on creating user-friendly interfaces and ensuring that clients and users are
+              always satisfied with the end product. My career aspirations are centered around
+              professional growth, and I am determined to become a leader in my field.
+            </p>
+          </div>
+        )}
+      </TrackVisibility>
+      {/* <p>
+        My passion for development goes beyond just the technical aspects of the job. I am focused
+        on creating user-friendly interfaces and ensuring that clients and users are always
+        satisfied with the end product. My career aspirations are centered around professional
+        growth, and I am determined to become a leader in my field.
+      </p> */}
+
       <img className="background-image-right" src={colorSharp2}></img>
     </section>
   );

@@ -8,7 +8,7 @@ import api from '../assets/img/api.png';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from '../assets/img/color-sharp.png';
-
+import TrackVisibility from 'react-on-screen';
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -72,6 +72,22 @@ export const Skills = () => {
                 </div>
               </Carousel>
             </div>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div className={isVisible ? 'animate__animated animate__fadeIn' : ''}>
+                  <p style={{ margin: '60px auto 60px auto', textAlign: 'center' }}>
+                    I am eager to learn new technologies and use my experience to help my team
+                    become industry leaders. I am passionate about development and strive to
+                    practice and learn something new every day.
+                  </p>
+                </div>
+              )}
+            </TrackVisibility>
+            {/*  <p style={{ margin: '60px auto 60px auto', textAlign: 'center' }}>
+              I am eager to learn new technologies and use my experience to help my team become
+              industry leaders. I am passionate about development and strive to practice and learn
+              something new every day.
+            </p> */}
           </div>
         </div>
       </div>

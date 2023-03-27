@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ['REACT Developer', 'Web Developer', 'JavaScript Developer'];
+  const toRotate = ['REACT Developer', 'Frontend Developer', 'JS Developer'];
   const period = 2000;
 
   useEffect(() => {
@@ -55,7 +55,7 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="aligh-items-center">
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={11} xl={10}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? 'animate__animated animate__fadeIn' : ''}>
@@ -70,11 +70,13 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Hello friends! Let me introduce myself 😊 <br />
-                    As a frontend developer with 1.9 years of experience, I am passionate about
+                    For almost 2 years, I have been passionately dedicated to creating beautiful and
+                    functional web applications using cutting-edge technologies such as React,
+                    Redux, SCSS, TypeScript, and much more.
+                    {/* As a frontend developer with 1.9 years of experience, I am passionate about
                     creating beautiful and functional web applications. I have a deep understanding
                     of the React.js ecosystem and am dedicated to staying up-to-date on the latest
-                    advancements in the field.
+                    advancements in the field. */}
                   </p>
                   <h5 onClick={() => console.log('connect')}>Let’s Connect</h5>
                 </div>
